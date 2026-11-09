@@ -15,7 +15,7 @@ In this project you will build such a pipeline.
   * [The configuration](#the-configuration)
   * [Running the entire pipeline or just a selection of steps](#Running-the-entire-pipeline-or-just-a-selection-of-steps)
   * [Pre-existing components](#pre-existing-components)
-  * [Link to Weights and Biases project](#link-wandb)
+  * [Link to Weights and Biases project](#link-to-weights-and-biases)
 
 ## Preliminary steps
 
