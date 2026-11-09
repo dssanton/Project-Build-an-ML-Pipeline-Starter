@@ -16,6 +16,7 @@ In this project you will build such a pipeline.
   * [Running the entire pipeline or just a selection of steps](#Running-the-entire-pipeline-or-just-a-selection-of-steps)
   * [Pre-existing components](#pre-existing-components)
   * [Link to Weights and Biases project](#link-to-weights-and-biases-project)
+  * [Link to Github repo](#link-to-github-repo)
 
 ## Preliminary steps
 
@@ -178,6 +179,9 @@ Please, make sure all steps are using **the same** python version and that you h
 
 ## Link to Weights and Biases project
 [Link](https://forge.coreweave.com/wandb/dssanton-western-governors-university/nyc_airbnb?nw=nwuserdssanton)
+
+## Link to github repo
+[Link](https://github.com/dssanton/Project-Build-an-ML-Pipeline-Starter.git)
 
 
 ## License
