@@ -104,7 +104,7 @@ def go(config: DictConfig):
                 os.path.join(hydra.utils.get_original_cwd(), "src", "train_random_forest"),
                 parameters = {
                     "trainval_artifact": "trainval_data.csv:latest",
-                    "output_artifact": "random_forest_export",
+                    "output_artifact": "model_export",
                     "rf_config": rf_config,
                     "max_tfidf_features": config["modeling"]["max_tfidf_features"],
                     "val_size": config["modeling"]["val_size"],
@@ -119,7 +119,7 @@ def go(config: DictConfig):
                 f"{config['main']['components_repository']}/test_regression_model",
                 "main",
                 parameters = {
-                    "mlflow_model": "random_forest_export:prod",
+                    "mlflow_model": "model_export:prod",
                     "test_dataset": "test_data.csv:latest"
                 }   
             )
